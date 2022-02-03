@@ -1,0 +1,192 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .contenedorLogin {
+        width: 1600px; 
+        margin: auto;
+    }
+}
+
+.contenedorLogin{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;    
+}
+@media (max-width: 800px) {
+    .contenedorLogin {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.contenedorImage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedorImage img{
+    height:100vh;
+    width: 45%;
+    position: absolute;
+    
+}
+@media (max-width: 800px) {
+    .contenedorImage {
+        display: none;
+    }
+}
+.contenedorLogo img{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    margin-top: -350px;
+    margin-left: -280px;
+}
+@media (max-width: 1200px) {
+    .contenedorLogo img {
+        position: absolute;
+        height: 50px;
+        width: 200px;
+        margin-top: -300px;
+        margin-left: -100px;
+    }
+}
+.contenedorLogoMovil{
+    display: none;
+}
+@media (max-width: 800px) {
+    .contenedorLogoMovil img, .contenedorLogoMovil {
+        display: flex;
+        height: 50px;
+        width: 200px;   
+        margin-top: 15px;
+    }
+}
+.contenedorImage h1{
+    position: absolute;
+    z-index: 4;
+    color: rgb(255, 255, 255);
+}.contenedorImage h2{
+    position: absolute;
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-style: italic;
+}
+@media (max-width: 1200px) {
+    .contenedorImage h2 {
+        position: absolute;
+        z-index: 5;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 0px;
+        font-style: italic;
+    }
+}
+
+.contenedorForm{
+    margin: auto;
+    margin-top: 25%;
+    text-align: center;
+}
+@media (max-width: 800px) {
+    .contenedorForm{
+        margin: auto;
+        margin-top: 150px;
+    }
+}
+
+
+.textoInicio{
+    font-size: 40px;
+    text-align: center;
+    color: #006EFF;
+    font-weight: bold;
+}
+.textoExplica{
+    font-size: 10px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom:10px ;
+    color: rgba(77, 76, 76, 0.507);
+    font-weight:400;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divCorreo{
+    margin-top: 40px;
+    font-size: 10px;
+}
+.divContraseña{
+    margin-top: 25px;
+    font-size: 10px;
+}
+.botonIniciar{
+    background-color: #006EFF;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 300px;
+    height: 35px;
+}
+.botonRegistrar{
+    background-color: transparent;
+    border: transparent ;
+    color: #006EFF;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.inputCorreo{
+    width: 340px;
+    height: 35px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.027);
+    border-left: 3px solid #006EFF;
+    font-size: 15px;
+}
+.inputContraseña{
+    width: 340px;
+    height: 35px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.027);
+    border-left: 3px solid #006EFF;
+    font-size: 15px;
+}
+
+
+.contenedorFondoMovil{
+    display: none;
+}
+@media (max-width: 800px) {
+    .contenedorFondoMovil{
+        display: flex;
+        height: 300px;
+        width: 100%;
+        background-image: url("../styles//images/fondoMovil2.png");
+        background-size: cover;
+        background-position: center;
+    }
+}
+

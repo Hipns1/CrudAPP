@@ -1,0 +1,208 @@
+/* Estilo del encabezado */
+.encabezadoHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006EFF;
+    height: 50px;
+}
+@media only screen and (max-width: 710px) {
+    .encabezadoHome{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #006EFF;
+        height: 50px;
+    }
+}
+.encabezadoHome p {
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 710px) {
+    .encabezadoHome p {
+        display: none;
+    }
+}
+.botonHomeLogOut{
+    background-color: transparent;
+    margin-right: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+@media only screen and (max-width: 710px) {
+    .botonHomeLogOut{
+        background-color: transparent;
+        margin-right: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        border: none;
+    }
+}
+.botonHomeLogOut:hover{
+    transform: scale(1.02);
+}
+.botonHomeLogOut img{
+    margin-left: 10px;
+    height: 30px;
+}
+.textData{
+    margin-top: 10px;
+    text-align: center;
+}
+.textData h1{
+    font-size: 35px;
+    color: #006EFF;
+}
+
+
+
+/* Estilos del botones de busqueda */
+.formBusqueda{
+
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+.campoBusqueda{
+    height: 35px;
+    margin-right: 640px;
+}
+@media only screen and (max-width: 1000px) {
+    .campoBusqueda{
+        height: 35px;
+        margin-right: 240px;
+    }
+  }
+@media only screen and (max-width: 710px) {
+    .campoBusqueda{
+        height: 35px;
+        margin-right: 80px;
+    }
+}
+.btnBuscar{
+    background-color: #006EFF;
+    background-image: url("../styles/images/search.png");
+    margin-left: 10px ;
+    height: 32px;
+    width: 32px;
+    background-size:cover;
+}
+.btnResetear{
+    background-color: #006EFF;
+    background-image: url("../styles/images/reset.png");
+    margin-left: 10px;
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
+
+/* Estilos del formulario CRUD */
+.containerForm{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    
+}
+@media only screen and (max-width: 1000px) {
+    .containerForm{
+        width: 700px;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .containerForm{
+        width: 300px;
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+table{
+    text-align: center;
+}
+th, td{
+    padding: 15px;
+    padding-left: 80px;
+}
+@media only screen and (max-width: 1000px) {
+    th, td{
+        padding: 10px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 710px) {
+    th, td{
+        padding: 6px;
+        padding-left: 0px;
+    }
+}
+thead{
+    background-color: #006EFF;
+    color: white;
+    border-bottom: 2px solid white;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+.btnEditar{
+    background-color: transparent;
+    border: transparent;
+    background-image: url("../styles/images/edit.png");
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+}
+.btnEditar:hover{
+    transform: scale(1.1);
+}
+.btnEliminar{
+    background-color: transparent;
+    border: transparent;
+    background-image: url("../styles/images/delete.png");
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+}
+.btnEliminar:hover{
+    transform: scale(1.1);
+}
+tr:hover{
+    background-color: #E5F7FF;
+}
+
+/* Boton añadir producto */
+.containerBtnAñadir{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    
+}
+.btnAñadir{
+    background-color: #006EFF;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.btnAñadir img{
+    height: 20px;
+    margin-left: 15px;
+}
